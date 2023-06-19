@@ -1,0 +1,147 @@
+.title__projects {
+    margin-bottom: 40px;
+    max-width: 660px;
+    font-size: 55px;
+    line-height: 72px;
+    color: white;
+}
+
+.project__link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    position: relative;
+}
+
+.project__title {
+    font-size: 35px;
+    line-height: 46px;
+    position: absolute;
+    bottom: 76px;
+    left: 50px;
+}
+
+.project__subtitle {
+    font-size: 30px;
+    line-height: 39px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.project__img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    margin-bottom: 80px;
+}
+
+.projects__button-show {
+    width: 582px;
+    height: 153px;
+    line-height: 153px;
+    font-size: 30px;
+    border-radius: 25px;
+    margin-bottom: 150px;
+}
+
+.project__label {
+    font-size: 20px;
+    line-height: 27px;
+    position: absolute;
+    background-color: #304ffe;
+    border-radius: 25px;
+    padding: 10px 20px;
+    bottom: 425px;
+    left: 65px;
+}
+
+@media (max-width: 1199px) {
+    .title__projects {
+        margin-bottom: 53px;
+        max-width: 660px;
+        font-size: 45px;
+        line-height: 58px;
+    }
+
+    .project__title {
+        font-size: 28px;
+        line-height: 36px;
+        bottom: 66px;
+        left: 40px;
+    }
+    
+    .project__subtitle {
+        font-size: 24px;
+        line-height: 31px;
+        bottom: 25px;
+        left: 40px;
+    }
+
+    .project__label {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 8px 16px;
+        bottom: 370px;
+        left: 50px;
+    }
+
+    .project__img {
+        height: 445px;
+        border-radius: 25px;
+    }
+    
+    .projects__list {
+        gap: 64px;
+    }
+    
+    .projects__button-show {
+        width: 100%;
+        height: 124px;
+        line-height: 124px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title__projects {
+        margin-bottom: 34px;
+        max-width: 660px;
+        font-size: 30px;
+        line-height: 39px;
+        left: 35px;
+    }
+
+    .project__label {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 8px 16px;
+        bottom: 380px;
+        left: 35px;
+    }
+    
+    .project__subtitle {
+        font-size: 16px;
+        line-height: 21px;
+        bottom: 35px;
+    }
+
+    .projects__list {
+        margin-bottom: 60px;
+        gap: 40px;
+    }
+    
+    .projects__button-show {
+        margin-bottom: 100px;
+        height: 80px;
+        font-size: 18px;
+        line-height: 80px;
+    }
+}
